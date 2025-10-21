@@ -1,0 +1,36 @@
+Package: dogmarep
+Type: Package
+Title: Replicates the central dogma of molecules
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Asbjorn", "Hansen",
+      email = "s215045@student.dtu.dk",
+      role = c("aut", "cre")
+    ), 
+    person(
+      "Emiliano", "Carrara",
+      email = "s250828@student.dtu.dk",
+      role = "aut"
+    ), 
+    person(
+      "Magnus", "Eriksen",
+      email = "s215066@student.dtu.dk",
+      role = "aut"
+    ), 
+    person(
+      "Oliver Sonne", "Buch",
+      email = "s215079@student.dtu.dk",
+      role = "aut"
+    ), 
+    person(
+      "Trine", "Brøgger",
+      email = "s211443@student.dtu.dk",
+      role = "aut"
+    )
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
