@@ -44,7 +44,7 @@ Depends:
 RoxygenNote: 7.3.2
 <<<<<<< HEAD
 Imports: 
-    ggplot,
+    ggplot2,
     stringr
 =======
 Config/testthat/edition: 3
