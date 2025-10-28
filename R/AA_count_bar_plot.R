@@ -3,6 +3,7 @@
 #' Create a bar chart of character frequencies (e.g., amino acids) in a single
 #' sequence string. Splits the string into individual characters, counts unique
 #' occurrences, and returns a ggplot object.
+#' @import ggplot2, stringr
 #'
 #' @param sequence character (length 1). The input sequence to analyze,
 #'   typically a one-letter amino acid string (e.g., "MALWMRLLPLL").
