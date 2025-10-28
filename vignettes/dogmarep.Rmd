@@ -30,6 +30,7 @@ You can install the development version of dogmarep like so:
 #| message : false
 #| warning : false
 #| echo : false
+#| eval : false
 install.packages("devtools") 
 devtools::install_github("https://github.com/rforbiodatascience25/group_01_package")
 ```
@@ -85,3 +86,4 @@ Finally, the amount of amino acids in the peptides can be visualized using `AA_p
 ```{r}
 AA_plot(peptide_seq)
 ```
+
