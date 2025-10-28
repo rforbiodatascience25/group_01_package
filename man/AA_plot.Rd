@@ -7,7 +7,7 @@
 AA_plot(sequence)
 }
 \arguments{
-\item{sequence_string}{character (length 1). The input sequence to analyze,
+\item{sequence}{character (length 1). The input sequence to analyze,
 typically a one-letter amino acid string (e.g., "MALWMRLLPLL").}
 }
 \value{

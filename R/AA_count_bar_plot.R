@@ -3,15 +3,15 @@
 #' Create a bar chart of character frequencies (e.g., amino acids) in a single
 #' sequence string. Splits the string into individual characters, counts unique
 #' occurrences, and returns a ggplot object.
-#' @import ggplot2, stringr
+#'
+#' @importFrom ggplot2 ggplot aes geom_col theme_bw theme
+#' @importFrom stringr str_split boundary str_count
 #'
 #' @param sequence character (length 1). The input sequence to analyze,
 #'   typically a one-letter amino acid string (e.g., "MALWMRLLPLL").
 #'
 #' @return A ggplot object showing counts per unique character in the sequence.
 #' @export
-#'
-#' @examples
 AA_plot <- function(sequence){
 
   # Split the sequence into individual characters (amino acids),
