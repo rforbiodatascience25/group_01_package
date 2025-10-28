@@ -37,9 +37,15 @@ LazyData: true
 Suggests: 
     knitr,
     rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 Depends: 
     R (>= 3.5)
 RoxygenNote: 7.3.2
+<<<<<<< HEAD
 Imports: 
     ggplot,
     stringr
+=======
+Config/testthat/edition: 3
+>>>>>>> ca480cc185578fad582c15a97beccffd91701f9c
