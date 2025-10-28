@@ -1,0 +1,23 @@
+---
+title: "dogmarep"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dogmarep}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(dogmarep)
+```
+
+# DogmaRep
+
+**Group 01 package for lab08**
