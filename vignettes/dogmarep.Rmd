@@ -1,0 +1,48 @@
+---
+title: "dogmarep"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dogmarep}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(dogmarep)
+```
+
+# DogmaRep
+
+**Group 01 package for lab08**
+
+## Installation from GitHub
+
+You can install the development version of dogmarep like so:
+
+``` r
+install.packages("devtools")
+devtools::install_github("https://github.com/rforbiodatascience25/group_01_package")
+```
+
+The package will install its dependencies as found in DESCRIPTION
+
+## Example workflow
+
+DogmaRep is able to compute an example conversion from DNA \> RNA \> peptide sequence, with the possibility of plotting the peptide sequence as well.
+
+### Generating random nucleotide sequence
+
+### Converting from DNA to RNA 
+
+### Split RNA into codons
+
+### Translating codons to amino acids (peptide sequence)
+
+### Plotting peptide sequences
