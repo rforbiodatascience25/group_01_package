@@ -1,6 +1,6 @@
 ---
 title: "dogmarep"
-output: rmarkdown::html_vignette
+output: rmarkdown::pdf_document
 vignette: >
   %\VignetteIndexEntry{dogmarep}
   %\VignetteEngine{knitr::rmarkdown}
