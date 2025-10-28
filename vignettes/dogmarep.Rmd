@@ -31,8 +31,8 @@ You can install the development version of dogmarep like so:
 #| warning : false
 #| echo : false
 #| eval : false
-#install.packages("devtools") 
-#devtools::install_github("https://github.com/rforbiodatascience25/group_01_package")
+install.packages("devtools") 
+devtools::install_github("https://github.com/rforbiodatascience25/group_01_package")
 ```
 
 The package will install its dependencies as found in DESCRIPTION
