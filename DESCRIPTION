@@ -40,11 +40,8 @@ Suggests:
     testthat (>= 3.0.0)
 Depends: 
     R (>= 3.5)
-RoxygenNote: 7.3.2
-<<<<<<< HEAD
+RoxygenNote: 7.3.3
+Config/testthat/edition: 3
 Imports: 
     ggplot2,
     stringr
-=======
-Config/testthat/edition: 3
->>>>>>> ca480cc185578fad582c15a97beccffd91701f9c
